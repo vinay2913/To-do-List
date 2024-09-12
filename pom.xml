@@ -1,0 +1,15 @@
+<dependencies>
+    <!-- JPA Dependency -->
+    <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version> <!-- Use the version that matches your environment -->
+    </dependency>
+
+    <!-- Hibernate Dependency (if using Hibernate as your JPA provider) -->
+    <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.2.6.Final</version> <!-- Use the version that matches your environment -->
+    </dependency>
+</dependencies>
